@@ -23,22 +23,24 @@ function cider_mill_features_amenities() {
 
                     <?php while( have_rows('features') ): the_row();
 
-                        $img = get_sub_field('image');
-                        $title = get_sub_field('title');
+                        $img_url = get_sub_field('image');
+                        $title   = get_sub_field('title');
 
-                        if(!empty($img) ) { ?>
+                        if(!empty($img_url) ) { ?>
 
-                            <div class="highlight has-img">
-                                <div class="highlight-inner">
+                            <div class="highlight">
+                                <div class="highlight-inner has-img" style="background-image:url(<?php echo esc_attr( $img_url ); ?>)">
 
-                                    <img src="<?php echo $img['sizes']['gallery-image']; ?>" alt="<?php echo $img['alt']; ?>" description="<?php echo $img['description']; ?>">
+                                    <div class="highlight-inner-content">
 
-                                    <?php if( !empty($title) ) : ?>
-                                        <span class="title"><?php echo $title; ?></span>
-                                    <?php endif; ?>
+                                        <?php if( !empty($title) ) : ?>
+                                            <span class="title"><?php echo esc_html($title); ?></span>
+                                        <?php endif; ?>
 
-                                    <button class="view">View</button>
-                                    <button class="close">X</button>
+                                        <button class="view">View</button>
+                                        <button class="close">X</button>
+
+                                    </div>
                                 </div>
                             </div><!-- highlight -->
 
@@ -49,11 +51,13 @@ function cider_mill_features_amenities() {
                             <div class="highlight">
                                 <div class="highlight-inner">
 
-                                    <?php if( !empty($title) ) : ?>
-                                        <span class="title"><?php echo $title; ?></span>
-                                    <?php endif; ?>
+                                    <div class="highlight-inner-content">
 
-                                    <button class="hide-btn">button</button>
+                                        <?php if( !empty($title) ) : ?>
+                                            <span class="title"><?php echo esc_html($title); ?></span>
+                                        <?php endif; ?>
+
+                                    </div>
                                 </div>
                             </div><!-- highlight -->
 
@@ -68,61 +72,6 @@ function cider_mill_features_amenities() {
         <?php endif;
 
         // AMENITIES SECTION =================================================
-        if( have_rows('amenities') ): ?>
 
-            <div id="amenities-section">
-
-                <header class="section-header">
-                    <h2>Community Amenities</h2>
-                </header>
-
-                <div class="amenities-wrapper">
-
-                    <?php while( have_rows('amenities') ): the_row();
-
-                        $img = get_sub_field('image');
-                        $title = get_sub_field('title');
-
-                        if(!empty($img) ) { ?>
-
-                            <div class="highlight has-img">
-                                <div class="highlight-inner">
-
-                                    <img src="<?php echo $img['sizes']['gallery-image']; ?>" alt="<?php echo $img['alt']; ?>" description="<?php echo $img['description']; ?>">
-
-                                    <?php if( !empty($title) ) : ?>
-                                        <span class="title"><?php echo $title; ?></span>
-                                    <?php endif; ?>
-
-                                    <button class="view">View</button>
-                                    <button class="close">X</button>
-                                </div>
-                            </div><!-- highlight -->
-
-                        <?php
-
-                        } else { ?>
-
-                            <div class="highlight">
-                                <div class="highlight-inner">
-
-                                    <?php if( !empty($title) ) : ?>
-                                        <span class="title"><?php echo $title; ?></span>
-                                    <?php endif; ?>
-
-                                    <button class="hide-btn">button</button>
-                                </div>
-                            </div><!-- highlight -->
-
-                        <?php }
-
-                    endwhile; ?>
-
-                </div><!-- features-wrapper -->
-                <p class="disclaimer"><?php echo $a_disclaimer; ?></p>
-
-            </div><!-- amenities-section -->
-
-        <?php endif;
     }
 }
