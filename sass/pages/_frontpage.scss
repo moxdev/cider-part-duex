@@ -1,0 +1,154 @@
+.page-template-frontpage {
+
+    .page-header-front-page.has-thumb {
+        background-repeat:no-repeat;
+        background-size: cover;
+        @include max-width(1300px);
+
+        h1 {
+            @include reset;
+            @include padding-left-right;
+            color:#FFF;
+            font-size:1.733rem;
+            font-family:$font__bold;
+            padding-top: 2.25em;
+            padding-bottom: 2.25em;
+            text-shadow:0 0 20px rgba(0, 0, 0, 1);
+            text-align: center;
+
+            @include respond-to(small) {
+                font-size: 2em;
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+
+            @include respond-to(small-land) {
+                font-size: 2.5em;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
+            }
+
+            @media screen and (min-width:620px) {
+                font-size: 3em;
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+
+            @include respond-to(tablet) {
+                font-size: 3.5em;
+                text-align: center;
+            }
+
+            @include respond-to(medium) {
+                font-size: 3.938rem;
+            }
+
+            @include respond-to(x-large) {
+                padding-top: 3em;
+                padding-bottom: 3em;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
+            }
+
+            @media screen and (min-width:1440px) {
+                padding-top: 2.5em;
+                padding-bottom: 2.5em;
+                font-size: 4em;
+                padding-left: 3em;
+                padding-right: 3em;
+            }
+        }
+
+        @include respond-to(large) {
+            min-height: 500px;
+            max-height: 500px;
+        }
+    }
+
+    #page {
+        .site-content {
+            .content-wrapper {
+                max-width: 1300px;
+                #primary {
+
+                    @include respond-to(medium) {
+                        padding-left: 4.5em;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        // padding-right: 2em;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-wrapper {
+
+        @include respond-to(medium) {
+            background-image: url(imgs/deco-background.svg);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: -5px -290px;
+            background-size: auto 170%;
+            margin-bottom: -20px;
+        }
+
+        // @media screen and (min-width:1020px) {
+        //     background-position: 20px -180px;
+        //     background-size: auto 110%;
+        // }
+
+        @include respond-to(large) {
+            padding-left: 0;
+            padding-right: 0;
+            background-position: 0px -224px;
+            background-size: auto 170%;
+        }
+    }
+
+    .entry-header {
+        line-height: 1;
+        text-align: center;
+        @include reset;
+        h2 {
+            color: $color__brand-red;
+            font-family: $font__alex;
+            font-size: 3.667rem;
+            @include reset;
+
+            span {
+                color: $color__brand-brown;
+                font-family: $font__bold;
+                font-size: 2.133rem;
+            }
+        }
+        h3 {
+            @include reset;
+            font-size: 1.4rem;
+            font-family: $font__light;
+            margin-bottom: 1rem;
+        }
+
+        @include respond-to(medium) {
+            text-align: left;
+
+            h2 {
+                font-size: 6.333rem;
+
+                span {
+                    font-size: 3.667rem;
+                }
+            }
+
+            h3 {
+                font-size: 2.733rem;
+            }
+        }
+
+        // @include respond-to(medium) {
+        //     h3 {
+        //         font-size: 2.563rem;
+        //     }
+        // }
+    }
+}

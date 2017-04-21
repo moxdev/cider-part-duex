@@ -1,0 +1,155 @@
+#secondary {
+
+    margin-bottom: .5em;
+
+    .sidebar-wrapper {
+        line-height: 1.25;
+
+        h2 {
+            line-height: 1;
+            color: $color__brand-red;
+            text-transform: uppercase;
+            font-family: $font__bold;
+        }
+
+        .sidebar-specials {
+            background-color: $color__brand-pink;
+            padding: 1em;
+            border-top: 2px solid $color__brand-brown;
+            border-bottom: 2px solid $color__brand-brown;
+            min-height: 180px;
+
+            h2 {
+                color: $color__brand-red;
+                font-family: $font__bold;
+                text-transform: uppercase;
+                font-size: 2.333rem;
+                @include reset;
+            }
+
+            h3 {
+                font-family: $font__semi;
+                font-size:  1.333rem;
+            }
+
+            h4 {
+                font-family: $font__regular;
+                margin: 1rem 0;
+                font-size: 0.8rem;
+                line-height: 1.25;
+            }
+
+            @include respond-to('small-land') {
+                text-align:center;
+            }
+
+            @include respond-to('medium') {
+
+                h2 {
+                    font-size:  3.2rem;
+                    line-height: .9;
+                }
+
+                h3 {
+                    font-size: 1.467rem;
+                    line-height: 1.2;
+                }
+            }
+        }
+
+        .sidebar-events {
+            padding: 1em .5em;
+            border-bottom: 2px solid $color__brand-brown;
+
+            h2 {
+                @include reset;
+                font-size: 2.067rem;
+                color: $color__brand-red;
+                font-family: $font__bold;
+                text-transform: uppercase;
+
+            }
+
+            h3 {
+                font-family: $font__semi;
+                font-size:  1.333rem;
+                padding: 0;
+                padding-top: .5rem;
+                line-height: 1;
+            }
+
+            p {
+                font-size: 0.9333rem;
+                line-height: 1.4;
+            }
+
+            @include respond-to(medium) {
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .sidebar-pets {
+            display: flex;
+            justify-content: space-around;
+            padding:1em .5em;
+            overflow: hidden;
+            border-bottom: 2px solid $color__brand-brown;
+
+            h2 {
+                flex: 2 0 50%;
+                padding-right: 5px;
+                font-size: 2.067rem;
+                color: $color__brand-red;
+                text-transform: uppercase;
+            }
+
+            img {
+                flex: 1 0 50%;
+                display: block;
+                max-width: 100px;
+                max-height: 100px;
+                padding-left: 5px;
+            }
+        }
+
+        @media screen and (min-width:650px) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .sidebar-specials {
+                width: 100%;
+            }
+
+            .sidebar-events {
+                width: 50%;
+            }
+
+            .sidebar-pets {
+                width: 50%;
+
+                h2 {
+                    margin: 0;
+                }
+            }
+        }
+
+        @include respond-to('medium') {
+            display: block;
+            max-width: 325px;
+            line-height: 1;
+
+            .sidebar-events {
+                width: 100%;
+            }
+
+            .sidebar-pets {
+                width: 100%;
+            }
+        }
+
+
+    }
+}

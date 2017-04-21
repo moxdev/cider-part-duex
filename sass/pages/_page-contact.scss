@@ -1,0 +1,169 @@
+.page-template-page-contact {
+
+    .honey {
+        display: none !important;
+    }
+
+    form {
+        display: block;
+
+        input, textarea {
+            border: 1px solid #e5e5e5;
+            width: 100%;
+            margin-bottom: 1em;
+            color: #dedede;
+
+            &:focus {
+                outline: none;
+                border: 1px solid #408b40;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+        }
+
+        input[type="submit"] {
+            background-color: #408b40;
+            color: #fff;
+            font-size: 1.067rem;
+            padding: .7em 1em;
+            font-family: $font__bold;
+            text-transform: uppercase;
+        }
+    }
+
+    .entry-content {
+        form {
+            input[type="submit"] {
+                width: 90%;
+            }
+        }
+    }
+
+    .map-wrapper {
+        form {
+            input[type="submit"] {
+                width: 60%;
+            }
+        }
+    }
+
+    #page {
+        .site-content {
+            .content-wrapper {
+                margin-bottom: 2em;
+
+                a {
+                    text-decoration: none;
+                    color: $color__brand-brown;
+
+                    &:hover, &:active, &:focus {
+                        color: $color__brand-pink;
+                    }
+
+                    &:visited {
+                        color: $color__brand-brown;
+                    }
+                }
+
+                #primary {
+                    order: 1;
+
+                    .contact-info-wrapper {
+
+                        .company-information-section, .hours-section {
+                            font-family: $font__semi;
+                            font-size: 1.2rem;
+                            line-height: 1.1;
+
+                            @include respond-to(medium) {
+                                font-size: 1.333rem;
+                            }
+                        }
+
+                        .hours-section {
+                            margin: 1em 0;
+
+                        }
+
+                        @include respond-to('tablet') {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            max-width: 400px;
+                            margin-bottom: 2em;
+
+                            @include respond-to(medium) {
+                                max-width: 500px;
+                            }
+
+                            .hours-section {
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                    @include respond-to('tablet') {
+                        .entry-content {
+
+                            form {
+
+                                input[type="submit"] {
+                                    max-width: 250px;
+
+                                    @include respond-to(medium) {
+                                        max-width: 275px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                #secondary {
+                    order: 2;
+
+                    .map-wrapper {
+                        margin-bottom: 1rem;
+
+                        #map-canvas {
+                            min-width: 200px;
+                            min-height: 200px;
+                        }
+
+                        form {
+                            label {
+                                color: $color__brand-red;
+                                text-transform: uppercase;
+                                font-size: 1.25rem;
+                                font-family: $font__bold;
+                                input {
+                                    font-family: $font__light;
+                                }
+                            }
+                        }
+                    }
+
+                    @include respond-to('tablet') {
+                        padding-top: 1em;
+
+                        .map-wrapper {
+                            margin-bottom: 2em;
+
+                            form {
+
+                                input[type="submit"] {
+                                    max-width: 150px;
+
+                                    @include respond-to(medium) {
+                                        max-width: 175px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,1248 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cide",
+				"cider_mill"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"lis",
+				"listArray〔variable〕"
+			],
+			[
+				"cal",
+				"calculateBill〔function〕"
+			],
+			[
+				"ca",
+				"classList"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"las",
+				"lastReply"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tbal",
+				"table-cell"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"medi",
+				"media\tmedia"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"community",
+				"community-involvement"
+			],
+			[
+				"colo",
+				"color__brand-2"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"color",
+				"color__brand-1"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"sideba",
+				"sidebar-1"
+			],
+			[
+				"ph",
+				"phone"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"tog",
+				"toggleOpen"
+			],
+			[
+				"togle",
+				"toggleActive"
+			],
+			[
+				"toggle",
+				"toggleActive"
+			],
+			[
+				"pro",
+				"propertyName"
+			],
+			[
+				"tran",
+				"transitionend"
+			],
+			[
+				"trn",
+				"translateY()"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"aling",
+				"align-content"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"invento",
+				"inventor"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"fi",
+				"firstAndLast"
+			],
+			[
+				"hour",
+				"hourHand"
+			],
+			[
+				"second",
+				"secondHand"
+			],
+			[
+				"trsa",
+				"transition"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"SANS",
+				"sans-serif"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"font__",
+				"font__regular"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"boa",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"phon",
+				"phone_number"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"image",
+				"imageMin"
+			],
+			[
+				"browser",
+				"browserSync"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "template-parts/content-page.php",
+			"settings":
+			{
+				"buffer_size": 1201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1935,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "*project-notes/notes.md",
+			"settings":
+			{
+				"buffer_size": 27,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"server",
+				"SFTP: Setup Server…"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"emoji",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"unf",
+				"Code Folding: Select Unfolded"
+			],
+			[
+				"emo",
+				"Emoji: Insert Emoji"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/plugins/mm4-you-contact-form/inc",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/plugins/mm4-you-contact-form/js",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/plugins/mm4-you-contact-form/js/min"
+	],
+	"file_history":
+	[
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/functions.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/customizer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/frontpage.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/inc/photo-gallery.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-floorplans.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-gaithersburg.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-photo-gallery.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-residents.php",
+		"/Users/GraphicDesigner/Sites/htdocs/cider/wp-content/themes/cider_mill/page-amenities.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/functions.php",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/server/db.json",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/src/post.js",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/src/flash-message.js",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/.babelrc",
+		"/Users/GraphicDesigner/Documents/Projects/es2015/forum-web-app/package.json",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_the-firm.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_frontpage.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_structure.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/navigation/_masthead.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/footer-colophon.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_resources.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/style.css.map",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/contact-sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_contact.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/imgs/logo.svg",
+		"/Users/GraphicDesigner/Desktop/disclaimer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/*project/notes.html",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_single-column.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_pages.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/404.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_404-page.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/plugins/mm4-you-contact-form/inc/contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/functions.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/home-carousel.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/bs-config.js",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/template-parts/content-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/*project/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/js/home-carousel.js",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/js/imagefill.js",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/typography/_headings.scss",
+		"/Volumes/Creative/I/Island IT Consulting/Websites/2016/51096_IITC_Website/Programmed/themes/mm4-you/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/*project/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/variables-site/_typography.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/forms/_buttons.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/elements/_elements.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/_normalize.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/custom-editor-styles.css",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/sass-snippets/media.sublime-snippet",
+		"/Users/GraphicDesigner/.zshrc",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sftp-config.json",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/navigation/_links.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/page-contact.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/plugins/mm4-you-contact-form/mm4-you-cf.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/sidebar-content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/community-involvement.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/site/primary/_posts-and-pages.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/variables-site/_colors.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/mixins/_mixins-master.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/_grid-settings.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/forms/_fields.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/js/map-directions.js",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/js/min/directions-map-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/js/directions-map.js",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/template-parts/content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/page-resources.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/page-firm.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/footer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_layout.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/style.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/variables-site/_structure.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/page-about.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/variables-site/_variables-site.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/frontpage.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/inc/sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sidebar-right.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_content-sidebar.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_sidebar-content.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/layout/_sidebar.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/pages/_footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/config.codekit3",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/*project/port-function.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/page-single-column.php",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/stern.sublime-project",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/typography/_fonts.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/sass/neat/grid/_outer-container.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/gulp/config.js",
+		"/Users/GraphicDesigner/Sites/htdocs/stern/wp-content/themes/stern_thomasson/package.json",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/045f991e-2316-4d5d-80bd-81912e4c4d53/home/islanditconsulta/www/dev/wp-content/themes/mm4-you/style.css",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/045f991e-2316-4d5d-80bd-81912e4c4d53/home/islanditconsulta/www/dev/wp-content/themes/mm4-you/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/*project-files/untitled.css",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/flex-gallery/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/array-cardio-1/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/css-js-variables/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/js-clock/index.html",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/drumkit/style.css",
+		"/Users/GraphicDesigner/Documents/Projects/js-30/drumkit/index.html",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/sidebar.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/template-parts/content-single.php",
+		"/Users/GraphicDesigner/Documents/Logins/Logins-Passwords.md",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/single.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/template-parts/content-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/plugins/mm4-you-contact-form/mm4-you-cf.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/functions.php",
+		"/Users/GraphicDesigner/Documents/Notes/go_live_notes/wp-wrap-up-tasks.md",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/template-parts/content.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/index.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/page-custom-sidebar-page.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/footer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/imgs/icon-menu-white.svg",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Semibold/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Regular/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Bold/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/islandit/wp-content/themes/mm4-you/fonts/SourceSansPro-Black/styles.css",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/*project-notes/todo.mdown",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/plugins/mm4-you-contact-form/mm4-you-cf.php",
+		"/Users/GraphicDesigner/Sites/htdocs/portabello/wp-content/themes/mm4/sass/page-templates/floorplans/_floorplan-listing.scss"
+	],
+	"find":
+	{
+		"height": 51.0
+	},
+	"find_in_files":
+	{
+		"height": 185.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mm4",
+			"argument",
+			"slastReply",
+			"Filters",
+			"argument",
+			"p",
+			"Island IT",
+			"xlink:href=\"data:img/png;base64",
+			"20151215",
+			"min/",
+			"20150908",
+			"mm4",
+			"## Home Page",
+			"img",
+			"#home-carousel",
+			"span",
+			"Home Page",
+			"}\n",
+			"::before",
+			"&::before",
+			"&:before",
+			"#page .site-content .content-area .site-main article .page-wrapper .entry-header h1",
+			"::before",
+			"&::before",
+			"true",
+			"relative",
+			"wrapper",
+			"25",
+			"30",
+			"]",
+			"[",
+			"icon",
+			"section",
+			"stern_thomasson_community_involvement",
+			"h3",
+			"Layout",
+			"h3",
+			"h2",
+			"sidebar_header",
+			"header",
+			"$size__site-main",
+			"\\n",
+			"address",
+			"font-family: ",
+			"baseline",
+			"#929497",
+			"#002b49",
+			"rem",
+			"px",
+			"'Cormorant",
+			"'Roboto",
+			"Roboto",
+			"'Roboto",
+			"50%",
+			".menu-toggle",
+			"#ffffff",
+			"#fff",
+			"image",
+			"masthead",
+			"fullName",
+			"#masthead",
+			"ol.carousel-nav li a",
+			"#home-carousel.carousel-type-1 .slide-description",
+			"#masthead",
+			"\t.",
+			"25",
+			"left",
+			"#457fca",
+			"nav",
+			"#primary",
+			"1.5",
+			"top",
+			"5",
+			"left",
+			"mm4_you_posts_sidebar_wysiwyg",
+			"mm4_you_sidebar_wysiwyg",
+			"code",
+			"btn",
+			"button",
+			"btn",
+			"iit-link",
+			"itt-link",
+			"btn",
+			"highlight",
+			"widget",
+			"regular",
+			"255",
+			"#home-carousel.carousel-type-1",
+			"carousel",
+			"true",
+			"page_for_posts",
+			"mm4_you_add_quick_contact_form",
+			"mm4_you_contact_page_sidebar",
+			"background-color: #000",
+			"background-color:#000",
+			"section",
+			"*",
+			"mm4_you_contact_page_form",
+			".5em",
+			"bottom",
+			"side-address-1",
+			".map-canvas",
+			"widget",
+			"highlight",
+			"link",
+			"form-quick-contact-wrapper",
+			"h3",
+			"h1",
+			"hot-jobs",
+			"home-highlight",
+			"widget",
+			"aside",
+			"colophon",
+			"aside",
+			"custom-sidebar-wysiwyg",
+			"sidebar",
+			"footer",
+			"background",
+			"footer",
+			"span",
+			"Widgets",
+			"more-link",
+			"read",
+			"p",
+			"helv",
+			"ftr-phone",
+			"site-info",
+			"highlights"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "template-parts/content-page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "php",
+							"buffer_scroll_name": "cae9c657",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tabs_extra_last_activated": 1487004419.11,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1860,
+								1860
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "php",
+							"buffer_scroll_name": "88906938",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tabs_extra_last_activated": 1487021739.65,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "*project-notes/notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "markdown extended",
+							"buffer_scroll_name": "94688c93",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended.tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"tabs_extra_last_activated": 1487021739.69,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 158.0
+	},
+	"pinned_build_system": "",
+	"project": "cider-mill.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"_mas",
+				"sass/navigation/_masthead.scss"
+			],
+			[
+				"_amen",
+				"sass/page-templates/_amenities.scss"
+			],
+			[
+				"_post",
+				"sass/site/primary/_posts-and-pages.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 384.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

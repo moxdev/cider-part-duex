@@ -1,0 +1,16 @@
+#map-wrapper {
+  position: relative; }
+  #map-wrapper #map-canvas {
+    height: 400px; }
+  #map-wrapper #reset-map {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 25;
+    transition: opacity .25s;
+    opacity: 0; }
+    #map-wrapper #reset-map.active {
+      opacity: 1; }
+  #map-wrapper #map-nav ul {
+    display: flex;
+    justify-content: center; }

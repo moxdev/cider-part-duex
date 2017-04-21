@@ -1,0 +1,270 @@
+// masthead.scss
+
+#masthead {
+    background-color: $color__brand-brown;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid $color__brand-pink;
+    @include padding-left-right;
+
+    a, a:active, a:focus {
+        outline: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .toggled {
+        display: block;
+        position:absolute;
+        top: 77px;
+        left: 0;
+        right: 0;
+        height:375px;
+        text-align: center;
+        background-color: $color__brand-red;
+        color: #fff;
+        overflow:hidden;
+        z-index:9999;
+
+        .menu-mobile-menu-container {
+            display: block !important;;
+            padding-top: 1.5em;
+
+            ul {
+                display: block !important;
+                list-style: none;
+                margin: 0;
+                padding:0;
+                @include padding-left-right;
+                text-align: left;
+
+                .current-menu-item {
+                    color:$color__brand-pink;
+                }
+
+                li {
+                    display: block !important;
+                    margin: 0;
+                    padding-bottom: 1em;
+
+                    a {
+                        font-family: $font__light;
+                        color:#fff;
+                        display: block !important;
+                        padding:0;
+                        text-decoration:none;
+                        font-size: 1.313rem;
+                        text-transform: uppercase;
+
+                        &:before {
+                            content: '\25b6';
+                            color: #fff;
+                            font-size: .5em;
+                            margin-right: 10px;
+                            vertical-align: middle;
+                        }
+
+                        &:hover, &:visited, &:active, :link {
+                            color: #fff;
+                        }
+
+                        ul {
+                            li {
+                                a {
+                                    text-transform: capitalize;
+                                    text-decoration: none;
+                                    font-size: .9em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @include respond-to(small-land) {
+            top:86px
+        }
+
+        @include respond-to(medium) {
+            top:101px
+        }
+
+        @include respond-to(large) {
+            display: none;
+        }
+    }
+
+    .masthead-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .site-branding {
+            flex: 1;
+            align-self: center;
+
+            svg {
+                max-width: 145px;
+
+                 @include respond-to('small') {
+                     max-width: 200px;
+                 }
+
+                 @include respond-to('large') {
+                     max-width: 225px;
+                 }
+            }
+        }
+
+        .main-navigation {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+            .masthead-phone {
+                text-align: right;
+                color: #fff;
+                font-family: $font__bold;
+                margin-bottom: 5px;
+
+                span {
+                    display: none;
+                    margin-right: .5em;
+
+                    @include respond-to('tablet') {
+                        display: inline-flex;
+                    }
+                }
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-family: $font__bold;
+                    font-size: 1.188rem;
+                }
+            }
+
+            .menu-toggle {
+                background-color: $color__brand-red;
+                color: #fff;
+                font-family: $font__light;
+                font-size: 0.9375rem;
+                text-transform: uppercase;
+                width: 63px;
+                margin-left: auto;
+                padding: .5em;
+            }
+
+            .menu-menu-container {
+                display: none;
+                color: #fff;
+
+                ul {
+                    list-style-type: none;
+
+                    .current-menu-item {
+
+                        a {
+                            color: $color__brand-pink;
+                        }
+                    }
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            padding: 1.5em;
+                            color: #fff;
+                            text-decoration: none;
+                            font-family: $font__light;
+
+                            &:before {
+                                content: '\25b6';
+                                color: #fff;
+                                font-size: .5em;
+                                margin-right: 5px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        @include respond-to('small-land') {
+            padding-top: .5em;
+
+            .menu-toggle {
+                margin-top: .20em;
+            }
+        }
+
+        @include respond-to('tablet') {
+
+            .main-navigation {
+                flex: 2;
+            }
+        }
+
+        @include respond-to('large') {
+            line-height: 1.2;
+
+            .main-navigation {
+                flex: 5;
+                text-align: right;
+
+                .menu-toggle {
+                    display: none;
+                }
+
+                .masthead-phone {
+                    font-size:  1.4rem;
+
+                    a {
+                        font-size: 2.4rem;
+                    }
+                }
+
+                .menu-menu-container {
+                    display: inline-block;
+
+                    ul {
+                        display: inline-flex;
+                        padding: 0;
+
+                        .residents-menu {
+                            display: none;
+                        }
+
+                        li {
+                            font-size: 1.533rem;
+
+                            a {
+                                font-size: .8em;
+
+                                @include respond-to(x-large) {
+                                    font-size: 1.533rem;
+                                }
+
+                                &:last-child {
+                                    padding-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond-to(medium) {
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+} // #masthead

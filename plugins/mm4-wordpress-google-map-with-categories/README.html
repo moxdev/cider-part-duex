@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="wordpressgooglemapwithcategories">Wordpress Google Map With Categories</h1>
+
+<p>Follow the steps below to set up an area map that uses the Google Maps API to plot landmarks (a custom post type in WordPress) with categories (a custom taxonomy that is assigned to the custom post type) that allow you to toggle map markers on/off.</p>
+
+<h2 id="installrequiredplugins">Install Required plugins</h2>
+
+<p>NOTE: The included <a href="acf-export-landmark-info.json">JSON file</a> to import into Advanced Custom fields is for use with the pro version of the plugin.</p>
+
+<ol>
+<li><a href="https://wordpress.org/plugins/rest-api/">WordPress REST API (Version 2)</a></li>
+<li><a href="https://www.advancedcustomfields.com/">Advanced Custom Fields</a></li>
+<li><a href="https://wordpress.org/plugins/acf-to-rest-api/">ACF to Rest API (Version 2)</a></li>
+<li><a href="https://wordpress.org/plugins/radio-buttons-for-taxonomies/">Radio Buttons for Taxonomies</a></li>
+</ol>
+
+<h2 id="createthecustomposttypeandtaxonomy">Create the custom post type and taxonomy</h2>
+
+<p>Add this to your theme&#8217;s functions.php file. Don&#8217;t forget to prefix your function names and to flush your permalinks:</p>
+
+<pre><code class="php">&lt;?php
+function mm4_create_custom_posts() {
+    $labels = array(
+        'name'                  =&gt; _x( 'Area Landmarks', 'Post Type General Name', 'text_domain' ),
+        'singular_name'         =&gt; _x( 'Area Landmark', 'Post Type Singular Name', 'text_domain' ),
+        'menu_name'             =&gt; __( 'Area Landmarks', 'text_domain' ),
+        'name_admin_bar'        =&gt; __( 'Area Landmarks', 'text_domain' ),
+        'archives'              =&gt; __( 'Item Archives', 'text_domain' ),
+        'parent_item_colon'     =&gt; __( 'Parent Item:', 'text_domain' ),
+        'all_items'             =&gt; __( 'All Landmarks', 'text_domain' ),
+        'add_new_item'          =&gt; __( 'Add New Landmark', 'text_domain' ),
+        'add_new'               =&gt; __( 'Add New Landmark', 'text_domain' ),
+        'new_item'              =&gt; __( 'New Landmark', 'text_domain' ),
+        'edit_item'             =&gt; __( 'Edit Landmark', 'text_domain' ),
+        'update_item'           =&gt; __( 'Update Landmark', 'text_domain' ),
+        'view_item'             =&gt; __( 'View Landmark', 'text_domain' ),
+        'search_items'          =&gt; __( 'Search Landmarks', 'text_domain' ),
+        'not_found'             =&gt; __( 'Not found', 'text_domain' ),
+        'not_found_in_trash'    =&gt; __( 'Not found in Trash', 'text_domain' ),
+        'featured_image'        =&gt; __( 'Featured Image', 'text_domain' ),
+        'set_featured_image'    =&gt; __( 'Set featured image', 'text_domain' ),
+        'remove_featured_image' =&gt; __( 'Remove featured image', 'text_domain' ),
+        'use_featured_image'    =&gt; __( 'Use as featured image', 'text_domain' ),
+        'insert_into_item'      =&gt; __( 'Insert into item', 'text_domain' ),
+        'uploaded_to_this_item' =&gt; __( 'Uploaded to this item', 'text_domain' ),
+        'items_list'            =&gt; __( 'Items list', 'text_domain' ),
+        'items_list_navigation' =&gt; __( 'Items list navigation', 'text_domain' ),
+        'filter_items_list'     =&gt; __( 'Filter items list', 'text_domain' ),
+    );
+    $args = array(
+        'label'                 =&gt; __( 'Area Landmark', 'text_domain' ),
+        'description'           =&gt; __( 'Post Type Description', 'text_domain' ),
+        'labels'                =&gt; $labels,
+        'supports'              =&gt; array( 'title', 'revisions', ),
+        'taxonomies'            =&gt; array( 'landmark_types' ),
+        'hierarchical'          =&gt; false,
+        'public'                =&gt; true,
+        'show_ui'               =&gt; true,
+        'show_in_menu'          =&gt; true,
+        'menu_position'         =&gt; 20,
+        'menu_icon'             =&gt; 'dashicons-location',
+        'show_in_admin_bar'     =&gt; false,
+        'show_in_nav_menus'     =&gt; false,
+        'can_export'            =&gt; true,
+        'has_archive'           =&gt; false,
+        'exclude_from_search'   =&gt; true,
+        'publicly_queryable'    =&gt; true,
+        'capability_type'       =&gt; 'post',
+        'show_in_rest'          =&gt; true,
+    );
+    register_post_type( 'area_landmarks', $args );
+
+}
+add_action( 'init', 'mm4_create_custom_posts', 0 );
+
+function mm4_create_custom_taxonomies() {
+    $labels = array(
+        'name'                       =&gt; _x( 'Landmark Types', 'Taxonomy General Name', 'text_domain' ),
+        'singular_name'              =&gt; _x( 'Landmark Type', 'Taxonomy Singular Name', 'text_domain' ),
+        'menu_name'                  =&gt; __( 'Landmark Types', 'text_domain' ),
+        'all_items'                  =&gt; __( 'All Landmark Types', 'text_domain' ),
+        'parent_item'                =&gt; __( 'Parent Item', 'text_domain' ),
+        'parent_item_colon'          =&gt; __( 'Parent Item:', 'text_domain' ),
+        'new_item_name'              =&gt; __( 'New Landmark Type', 'text_domain' ),
+        'add_new_item'               =&gt; __( 'Add New Landmark Type', 'text_domain' ),
+        'edit_item'                  =&gt; __( 'Edit Landmark Type', 'text_domain' ),
+        'update_item'                =&gt; __( 'Update Landmark Type', 'text_domain' ),
+        'view_item'                  =&gt; __( 'View Landmark Type', 'text_domain' ),
+        'separate_items_with_commas' =&gt; __( 'Separate items with commas', 'text_domain' ),
+        'add_or_remove_items'        =&gt; __( 'Add or remove items', 'text_domain' ),
+        'choose_from_most_used'      =&gt; __( 'Choose from the most used', 'text_domain' ),
+        'popular_items'              =&gt; __( 'Popular Items', 'text_domain' ),
+        'search_items'               =&gt; __( 'Search Items', 'text_domain' ),
+        'not_found'                  =&gt; __( 'Not Found', 'text_domain' ),
+        'no_terms'                   =&gt; __( 'No items', 'text_domain' ),
+        'items_list'                 =&gt; __( 'Items list', 'text_domain' ),
+        'items_list_navigation'      =&gt; __( 'Items list navigation', 'text_domain' ),
+    );
+    $args = array(
+        'labels'                     =&gt; $labels,
+        'hierarchical'               =&gt; true,
+        'public'                     =&gt; true,
+        'show_ui'                    =&gt; true,
+        'show_admin_column'          =&gt; true,
+        'show_in_nav_menus'          =&gt; false,
+        'show_tagcloud'              =&gt; false,
+        'show_in_rest'              =&gt; true,
+    );
+    register_taxonomy( 'landmark_types', array( 'area_landmarks' ), $args );
+
+}
+add_action( 'init', 'mm4_create_custom_taxonomies', 0 );
+?&gt;
+</code></pre>
+
+<h2 id="setuppluginoptions">Setup plugin options</h2>
+
+<p>Import the <a href="acf-export-landmark-info.json">JSON file</a> into Advanced Custom Fields</p>
+
+<p>Add this to your functions.php file to remove the &#8220;None&#8221; option for Radio Buttons for Taxonomies:</p>
+
+<pre><code class="php">&lt;?php
+// Remove option for no type from radio button for taxonomies plugin
+add_filter('radio-buttons-for-taxonomies-no-term-landmark_types', '__return_FALSE' );
+?&gt;
+</code></pre>
+
+<h2 id="outputhtmlmarkupjavascript">Output HTML markup/javascript</h2>
+
+<p>Add this to your theme&#8217;s functions.php file. Don&#8217;t forget to prefix your function name:</p>
+
+<pre><code class="php">&lt;?php
+function mm4_area_map() { ?&gt;
+    &lt;div id=&quot;map-wrapper&quot;&gt;
+        &lt;div id=&quot;map-canvas&quot;&gt;&lt;/div&gt;
+        &lt;button id=&quot;reset-map&quot;&gt;Reset&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;?php wp_enqueue_script( string $handle, string $src = false, array $deps = array(), string|bool|null $ver = false, bool $in_footer = false );
+} ?&gt;
+</code></pre>
+
+<p>You can use this to call the function in your page template:</p>
+
+<pre><code class="php">&lt;?php
+if(function_exists('mm4_area_map')) {
+  mm4_area_map();
+}
+?&gt;
+</code></pre>
+
+<h2 id="javascriptimplementation">Javascript implementation</h2>
+
+<p>You will need to set some variables at the top of the <a href="area-map.js">area-map.js</a> file:</p>
+
+<ol>
+<li><p>Add your google maps api key (<strong>var apiKey</strong>)</p></li>
+<li><p>Set the path to use in order to query the REST API for the &#8220;landmarks&#8221; custom post type (<strong>var markersFeed</strong>)</p></li>
+<li><p>Set the path to use in order to query the REST API for the &#8220;landmark_types&#8221; custom taxonomy (<strong>var catsFeed</strong>). If you do not want to use the category navigation, you can set &#8220;<strong>var addCats</strong>&#8221; to &#8220;false&#8221;</p></li>
+<li><p>Set the path to where your map markers are stored in your WordPress theme. The naming convention for map markers is by the taxonomy id number. So, if you had a &#8220;Landmark Type&#8221; with an id of &#8220;10,&#8221; the path the javascript will output is: <em>/THE_PATH_YOU_ENTERED/cat&#8211;10.png</em>. You will need to have an appropriately named icon in your directory for each &#8220;Landmark Type&#8221; that is being used.
+(get the page ID of the landmark types and name the icon cat-page-ID.png)</p></li>
+</ol>
+
+<h2 id="samplecss">Sample CSS</h2>
+
+<p>A <a href="sample-styles.scss">sample SASS file</a> has been provided to get you started.</p>
+
+</body>
+</html>
