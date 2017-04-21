@@ -2456,7 +2456,9 @@ object {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -1px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 @media (min-width: 760px) {
   /* line 19, sass/pages/_page-amenities.scss */
@@ -2466,18 +2468,43 @@ object {
     padding-right: 2rem;
   }
 }
-/* line 28, sass/pages/_page-amenities.scss */
+/* line 29, sass/pages/_page-amenities.scss */
 .page-template-page-amenities .has-img {
   background-color: transparent;
 }
-/* line 32, sass/pages/_page-amenities.scss */
+/* line 33, sass/pages/_page-amenities.scss */
 .page-template-page-amenities .highlight {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font-family: "SourceSansPro-Regular", sans-serif;
   border: 1px solid #FFF;
   background-color: rgba(0, 0, 0, 0.1);
-  width: 50%;
+  overflow: hidden;
+}
+/* line 43, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight:after {
+  content: '';
+  display: table;
+  padding-top: 100%;
+}
+/* line 49, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight .highlight-inner {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
   position: relative;
   overflow: hidden;
-  font-family: "SourceSansPro-Regular", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2485,82 +2512,70 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-/* line 42, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight:after {
-  content: '';
-  display: block;
-  padding-bottom: 100%;
-}
-@media (min-width: 560px) {
-  /* line 32, sass/pages/_page-amenities.scss */
-  .page-template-page-amenities .highlight {
-    width: 33%;
-  }
-}
-@media (min-width: 760px) {
-  /* line 32, sass/pages/_page-amenities.scss */
-  .page-template-page-amenities .highlight {
-    width: 25%;
-  }
-}
-@media (min-width: 960px) {
-  /* line 32, sass/pages/_page-amenities.scss */
-  .page-template-page-amenities .highlight {
-    width: 20%;
-  }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /* line 61, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner {
-  text-align: center;
+.page-template-page-amenities .highlight .highlight-inner .title {
+  text-transform: uppercase;
+  font-size: 1.05rem;
+  line-height: 1.1;
+  font-family: "SourceSansPro-Regular", sans-serif;
+  padding: .5em;
+  position: relative;
+  z-index: 5;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+/* line 72, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight .highlight-inner img {
   position: absolute;
   left: 1px;
   right: 1px;
   top: 1px;
   bottom: 1px;
-  padding: 1em;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-}
-/* line 77, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner img,
-.page-template-page-amenities .highlight-inner span,
-.page-template-page-amenities .highlight-inner .view {
-  -webkit-transition: opacity 0.25s ease-in-out;
-  transition: opacity 0.25s ease-in-out;
-}
-/* line 83, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner span,
-.page-template-page-amenities .highlight-inner .view {
-  position: relative;
-  z-index: 5;
-}
-/* line 89, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   margin: auto;
   width: 100%;
   z-index: 1;
   opacity: .2;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
-/* line 101, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner .close {
+/* line 85, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight .highlight-inner .view {
+  font-size: 0.8667rem;
+  position: relative;
+  z-index: 5;
+  background-color: transparent;
+  text-decoration: underline;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+/* line 93, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight .highlight-inner .view:hover {
+  cursor: pointer;
+}
+@media (min-width: 960px) {
+  /* line 85, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight .highlight-inner .view {
+    font-size: 1.067rem;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 85, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight .highlight-inner .view {
+    font-size: 1rem;
+  }
+}
+/* line 107, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight .highlight-inner .close {
   position: absolute;
   top: .3em;
   right: .3em;
@@ -2582,91 +2597,89 @@ object {
   box-shadow: 0 0 0 1px white;
   z-index: 2;
 }
-/* line 124, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner .close:hover {
+/* line 130, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight .highlight-inner .close:hover {
   cursor: pointer;
 }
 @media (min-width: 960px) {
-  /* line 101, sass/pages/_page-amenities.scss */
-  .page-template-page-amenities .highlight-inner .close {
+  /* line 107, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight .highlight-inner .close {
     width: 45px;
     height: 45px;
     font-size: 1.667rem;
   }
 }
-/* line 135, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner .view {
-  background-color: transparent;
-  text-decoration: underline;
-}
-/* line 139, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner .view:hover {
-  cursor: pointer;
-}
-@media (min-width: 960px) {
-  /* line 135, sass/pages/_page-amenities.scss */
-  .page-template-page-amenities .highlight-inner .view {
-    font-size: 1.067rem;
+@media (min-width: 560px) {
+  /* line 33, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight {
+    -ms-flex-preferred-size: calc(100% / 3);
+        flex-basis: calc(100% / 3);
+  }
+  /* line 147, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight .highlight-inner .title {
+    font-size: 1.2rem;
+    padding: 1em;
   }
 }
-/* line 149, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner.active img,
-.page-template-page-amenities .highlight-inner.active .close {
-  opacity: 1;
-}
-/* line 154, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .hihglight-inner.active .close:hover {
-  cursor: pointer;
-}
-/* line 158, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner.active span,
-.page-template-page-amenities .highlight-inner.active .view {
-  opacity: 0;
-}
-/* line 163, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .highlight-inner.active span,
-.page-template-page-amenities .highlight-inner.active .view:hover {
-  cursor: default;
-}
-/* line 168, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .title {
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  line-height: 1.1;
-  font-family: "SourceSansPro-Regular", sans-serif;
+@media (min-width: 760px) {
+  /* line 33, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight {
+    -ms-flex-preferred-size: calc(100% / 4);
+        flex-basis: calc(100% / 4);
+  }
+  /* line 159, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight .highlight-inner .title {
+    font-size: 1.2rem;
+    padding: 1.2em;
+  }
 }
 @media (min-width: 960px) {
-  /* line 168, sass/pages/_page-amenities.scss */
-  .page-template-page-amenities .title {
-    font-size: 1.667rem;
+  /* line 33, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight {
+    -ms-flex-preferred-size: calc(100% / 5);
+        flex-basis: calc(100% / 5);
+  }
+  /* line 171, sass/pages/_page-amenities.scss */
+  .page-template-page-amenities .highlight .highlight-inner .title {
+    font-size: 1.3rem;
+    padding: 1.5em;
   }
 }
 /* line 179, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .view {
-  font-size: 0.8667rem;
-}
-@media (min-width: 1200px) {
-  /* line 179, sass/pages/_page-amenities.scss */
-  .page-template-page-amenities .view {
-    font-size: 1rem;
-  }
-}
-/* line 188, sass/pages/_page-amenities.scss */
-.page-template-page-amenities .hide-btn {
-  visibility: hidden;
-}
-/* line 192, sass/pages/_page-amenities.scss */
 .page-template-page-amenities .disclaimer {
   font-size: 0.8125rem;
   font-family: "SourceSansPro-Regular", sans-serif;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 @media (min-width: 960px) {
-  /* line 192, sass/pages/_page-amenities.scss */
+  /* line 179, sass/pages/_page-amenities.scss */
   .page-template-page-amenities .disclaimer {
     font-size: 1rem;
   }
+}
+/* line 192, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight-inner.active img,
+.page-template-page-amenities .highlight-inner.active .close {
+  opacity: 1;
+}
+/* line 197, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .hihglight-inner.active .close:hover {
+  cursor: pointer;
+}
+/* line 201, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight-inner.active span,
+.page-template-page-amenities .highlight-inner.active .view {
+  opacity: 0;
+}
+/* line 206, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .highlight-inner.active span,
+.page-template-page-amenities .highlight-inner.active .view:hover {
+  cursor: default;
+}
+/* line 212, sass/pages/_page-amenities.scss */
+.page-template-page-amenities .hide-btn {
+  display: none;
 }
 
 /*--------------------------------------------------------------
